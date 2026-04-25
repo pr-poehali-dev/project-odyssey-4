@@ -15,32 +15,32 @@ export function WorkSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Проекты
+            Инструктажи
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Избранные работы</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Виды инструктажей</p>
         </div>
 
         <div className="space-y-6 md:space-y-8">
           {[
             {
               number: "01",
-              title: "ТехноСтарт",
-              category: "Корпоративный портал",
-              year: "2024",
+              title: "Вводный инструктаж",
+              category: "Для всех новых сотрудников при приёме на работу",
+              year: "ТК РФ",
               direction: "left",
             },
             {
               number: "02",
-              title: "АльфаТрейд",
-              category: "Финтех платформа",
-              year: "2024",
+              title: "Первичный инструктаж",
+              category: "На рабочем месте до начала самостоятельной работы",
+              year: "ст. 212",
               direction: "right",
             },
             {
               number: "03",
-              title: "МедиаПульс",
-              category: "Медиа сервис",
-              year: "2023",
+              title: "Повторный инструктаж",
+              category: "Не реже одного раза в 6 месяцев для каждого сотрудника",
+              year: "ГОСТ",
               direction: "left",
             },
           ].map((project, i) => (
